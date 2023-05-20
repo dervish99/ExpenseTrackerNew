@@ -14,3 +14,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from 'firebase/app';
+
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: 'AIzaSyDZPxHC7dqb9syMvmIr4INGXOt_naMJHA4',
+  authDomain: 'expense-tracker-1597e.firebaseapp.com',
+  projectId: 'expense-tracker-1597e',
+  storageBucket: 'expense-tracker-1597e.appspot.com',
+  messagingSenderId: '325003886764',
+  appId: '1:325003886764:web:3f15772e410010d4a6df09',
+  measurementId: 'G-119HQDC9WM',
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
